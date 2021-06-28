@@ -1,0 +1,24 @@
+<!-- http://clips.vorwaerts-gmbh.de/VfE_html5.mp4 => a video link -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Main File</title>
+</head>
+
+<body>
+    <video width = 350 height = 300 id="video" src="resume_video.mp4" type="video/mp4" controls>Video not supported!</video>
+    <button onclick="capture()">Capture Image</button>
+    <canvas style="border: solid red;" id="canvas"></canvas>
+    <a id=dl download="file.txt">Download String</a>
+    <a id=di download="file.png">Download Image</a>
+
+    <script src="/capture.js"></script>
+</body>
+
+</html>
